@@ -67,8 +67,7 @@ body{
    font-size: var(--text-size); 
    background-color: var(--body-color);
    color: var(--text-color);
-   
-
+  
 }
 h1,h2,h3{
     color: var(--title-color);
@@ -322,7 +321,9 @@ button {
 
 }
 .second-section{
-    transform: translateY(-8rem);
+    transform: translateY(-7.8rem);
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .second-section h1{
@@ -343,6 +344,7 @@ button {
     flex-direction: row;
     width: 100%;
     align-items: top;
+    
 }
 .second-section-body img{
     width: 600px;
@@ -356,7 +358,8 @@ button {
 /** Third section **/
 .third-section{
     transform: translateY(-18rem);
-    height: 80vh;
+    height: fit-content;
+    background-image: url(../Assets/paper-texture.png);
 }
 .third-section-title{
     text-align: center;
@@ -381,8 +384,9 @@ button {
 .product-card{
     width: 500px;
     border-radius: 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     cursor: pointer;
+    background: rgb(248, 248, 248);
 }
 .product-card-img{
     position: relative;
